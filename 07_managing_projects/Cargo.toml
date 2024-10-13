@@ -1,0 +1,12 @@
+[package]
+name = "managing_projects"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+
+[lib]
+name = "restaurant"
+path = "restaurant/src/lib.rs"
+rustflags = ["-A", "dead_code"]

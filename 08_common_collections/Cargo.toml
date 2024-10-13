@@ -1,0 +1,19 @@
+[package]
+name = "common_collections"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "hash_maps"
+path = "src/hash_maps.rs"
+
+[[bin]]
+name = "storing_utf8"
+path = "src/storing_utf8.rs"
+
+[[bin]]
+name = "vectors"
+path = "src/vectors.rs"
+
+
+[dependencies]

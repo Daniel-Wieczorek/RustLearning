@@ -1,0 +1,15 @@
+[package]
+name = "common_concepts"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "common_concepts"
+path = "src/common_concepts.rs"
+
+[[bin]]
+name = "control_flow"
+path = "src/control_flow.rs"
+
+[dependencies]
+
